@@ -90,11 +90,12 @@ ol li::marker {
 }
 
 .main-content {
-    min-height: 100vh;
+    min-height: 100%;
+    background: var(--stone-100);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8rem 3rem 8rem 3rem;
+    padding: 8rem 3rem;
 }
 
 .recipe-card {
