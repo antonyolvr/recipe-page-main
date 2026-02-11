@@ -15,6 +15,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    min-height: 100%;
+    background: var(--stone-100);
+}
+
 h1 {
     font-family: "Young Serif", serif;
     font-weight: 400;
@@ -68,7 +73,7 @@ ol li::marker {
     font-weight: 700;
 }
 
-.ingredients-content ul, .intructions-content ol, .intructions-content h2, .preparation-time-content ul {
+.ingredients-content ul, .instructions-content ol, .instructions-content h2, .preparation-time-content ul {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -86,7 +91,6 @@ ol li::marker {
 
 .main-content {
     min-height: 100vh;
-    background: var(--stone-100);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,7 +192,7 @@ ol li::marker {
     }
 
     .recipe-card img {
-        width: 100vw;
+        width: 100%;
         border-radius: 0;
     }
 
